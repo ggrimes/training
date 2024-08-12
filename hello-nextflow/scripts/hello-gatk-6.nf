@@ -2,9 +2,7 @@
  * Pipeline parameters
  */
 
-// Execution environment setup
-params.projectDir = "/workspace/gitpod/nf-training/hello-nextflow" 
-$projectDir = params.projectDir
+
 
 // Primary input
 params.reads_bam = "${projectDir}/data/samplesheet.csv"
